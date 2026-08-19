@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UMRA+ — Foydalanish shartlari · Фойдаланиш шартлари · Условия использования</title>
+<meta name="description" content="UMRA+ — Foydalanish shartlari / Фойдаланиш шартлари / Условия использования">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --ivory:#FAF8F2; --paper:#FFFFFF; --teal:#08313A; --teal-soft:#DCEBEE;
+  --gold:#D4AF37; --gold-deep:#A67C1E; --gold-soft:#F7F0DA;
+  /* Link colour is the palette's goldOnLightEnd, not goldDeep: goldDeep
+     is only 3.8:1 on white and fails WCAG AA for body-size text, which
+     is exactly what the phone number in the contact clause is. */
+  --link:#7E5C10;
+  --ink:#1E2B2F; --muted:#5C6B70; --rule:#E6E0D2;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--ivory); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:17px; line-height:1.65;
+}
+.wrap{max-width:46rem; margin:0 auto; padding:0 20px 64px}
+header.masthead{
+  background:var(--teal); color:#fff; margin-bottom:28px;
+  border-bottom:3px solid var(--gold);
+}
+.masthead .wrap{padding-top:28px; padding-bottom:24px}
+.brand{
+  font-family:Georgia,"Times New Roman",serif; font-size:1.9rem; font-weight:700;
+  letter-spacing:.02em; color:var(--gold); margin:0;
+}
+.tagline{margin:6px 0 0; color:#CFE0E3; font-size:.95rem}
+.meta{margin:18px 0 0; padding:0; list-style:none; font-size:.95rem; color:#DCEBEE}
+.meta li{margin:3px 0}
+.meta a{color:#fff}
+ul.langs{
+  display:flex; flex-wrap:wrap; gap:8px; margin:0 0 30px; padding:0; list-style:none;
+}
+ul.langs a{
+  display:inline-block; padding:9px 15px; border-radius:999px;
+  background:var(--paper); border:1px solid var(--rule); color:var(--teal);
+  text-decoration:none; font-size:.95rem; font-weight:600;
+}
+ul.langs a:hover{border-color:var(--gold); background:var(--gold-soft)}
+a:focus-visible{outline:3px solid var(--teal); outline-offset:2px}
+ul.langs a[aria-current="true"]{background:var(--teal); border-color:var(--teal); color:#fff}
+h1{
+  font-family:Georgia,"Times New Roman",serif; color:var(--teal);
+  font-size:1.6rem; line-height:1.25; margin:0 0 4px;
+}
+.doc-updated{margin:0 0 22px; color:var(--muted); font-size:.9rem}
+ol.clauses{list-style:none; margin:0; padding:0; counter-reset:clause}
+ol.clauses > li{
+  counter-increment:clause; background:var(--paper); border:1px solid var(--rule);
+  border-radius:12px; padding:16px 18px; margin:0 0 12px;
+}
+ol.clauses > li > h2{
+  font-family:Georgia,"Times New Roman",serif; color:var(--teal);
+  font-size:1.08rem; line-height:1.35; margin:0 0 8px;
+  display:flex; align-items:baseline; gap:10px;
+}
+ol.clauses > li > h2::before{
+  content:counter(clause); flex:0 0 auto;
+  min-width:1.7em; height:1.7em; padding:0 .35em; border-radius:999px;
+  background:var(--teal-soft); color:var(--teal);
+  font-family:inherit; font-size:.85em; font-weight:700;
+  display:inline-flex; align-items:center; justify-content:center;
+}
+ol.clauses > li > p{margin:0; color:var(--ink)}
+ol.clauses a{color:var(--link)}
+.crosslink{margin:26px 0 0; font-size:.95rem}
+.crosslink a{color:var(--teal); font-weight:600}
+footer.foot{
+  margin-top:40px; padding-top:18px; border-top:1px solid var(--rule);
+  color:var(--muted); font-size:.88rem;
+}
+section.lang{scroll-margin-top:16px}
+section.lang + section.lang{margin-top:44px; padding-top:36px; border-top:1px solid var(--rule)}
+/* Single-language view is switched on by script only. With JavaScript
+   disabled or blocked every language stays visible and readable, which is
+   the behaviour a Play reviewer must never be denied. */
+body.js-single section.lang{display:none}
+body.js-single section.lang.active{display:block}
+body.js-single section.lang + section.lang{margin-top:0; padding-top:0; border-top:0}
+@media (max-width:420px){
+  body{font-size:16px}
+  .brand{font-size:1.6rem}
+  h1{font-size:1.4rem}
+  .wrap{padding-left:16px; padding-right:16px}
+}
+@media print{
+  body{background:#fff}
+  header.masthead{background:#fff; color:#000; border-bottom:2px solid #000}
+  .brand{color:#000} .tagline,.meta{color:#000}
+  .meta a,.masthead a{color:#000}
+  ul.langs{display:none}
+  body.js-single section.lang{display:block !important}
+  ol.clauses > li{border:1px solid #999; break-inside:avoid;
+    page-break-inside:avoid}
+  section.lang + section.lang{page-break-before:always; break-before:page}
+}
+</style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="brand">UMRA+</p>
+      <p class="tagline">Foydalanish shartlari · Фойдаланиш шартлари · Условия использования</p>
+      <ul class="meta">
+        <li>Tel: <a href="tel:+998783333333">+998 78 333 33 33</a></li>
+        <li>Last updated: <time datetime="2026-08-19">2026-08-19</time></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav aria-label="Til / Язык / Language">
+      <ul class="langs">
+        <li><a href="#uz" aria-current="true">O'zbekcha</a></li>
+        <li><a href="#uz-cyrl" aria-current="false">Ўзбекча</a></li>
+        <li><a href="#ru" aria-current="false">Русский</a></li>
+      </ul>
+    </nav>
+
+      <section class="lang active" id="uz" lang="uz-Latn">
+        <h1>Foydalanish shartlari</h1>
+        <p class="doc-updated">Oxirgi yangilanish: 2026</p>
+        <ol class="clauses">
+        <li>
+          <h2>Umumiy qoidalar</h2>
+          <p>UMRA+: litsenziyali tur firmalar va ziyoratchilarni bog'lovchi platforma. Firmalar uchun administrator tasdig'i talab qilinadi.</p>
+        </li>
+        <li>
+          <h2>Platformaning roli</h2>
+          <p>UMRA+ vositachi platforma. Bron va xizmatni bevosita litsenziyali firma taqdim etadi. UMRA+ ishonchli aloqani ta'minlaydi (narx kafolati va sharhlar), lekin safar xizmatini o'zi ko'rsatmaydi.</p>
+        </li>
+        <li>
+          <h2>Bron va to'lov</h2>
+          <p>Bronlar real vaqtda. To'lov onlayn emas — naqd, firma ofisida, firma tasdig'idan so'ng 24 soat ichida. Muddatida to'lanmagan bron avtomatik bekor qilinadi. Bron narxi qulflanadi.</p>
+        </li>
+        <li>
+          <h2>Narx kafolati</h2>
+          <p>Bron narxi UMRA+ orqali kafolatlanadi; firma oshira olmaydi.</p>
+        </li>
+        <li>
+          <h2>Mijozning majburiyatlari</h2>
+          <p>To'g'ri va haqiqiy ma'lumot berish shart. To'lovni belgilangan muddatda firma ofisida amalga oshirish mijoz zimmasida.</p>
+        </li>
+        <li>
+          <h2>Firmaning majburiyatlari</h2>
+          <p>Rasmiy litsenziya, e'lon qilingan xizmatni to'liq taqdim etish, bron shartlariga rioya.</p>
+        </li>
+        <li>
+          <h2>Javobgarlik</h2>
+          <p>Reys yoki mehmonxona tomonidan kechikish/bekor qilish/xizmat sifati uchun javobgarlik tegishli firma zimmasida. UMRA+ vositachi sifatida imkon qadar yordam beradi.</p>
+        </li>
+        <li>
+          <h2>Taqiqlar</h2>
+          <p>Noto'g'ri maqsadda foydalanish, soxta bron, tizimni buzishga urinish qat'iyan taqiqlanadi.</p>
+        </li>
+        <li>
+          <h2>Sharhlar</h2>
+          <p>Sharhlarni faqat to'lagan mijozlar yozadi; firmalar o'zgartira/o'chira olmaydi.</p>
+        </li>
+        <li>
+          <h2>Shartlar o'zgarishi</h2>
+          <p>Oldindan xabardor qilingan holda o'zgartirilishi mumkin; davomiy foydalanish qabul qilganlik hisoblanadi.</p>
+        </li>
+        <li>
+          <h2>Bog'lanish</h2>
+          <p>Savollar uchun: <a href="tel:+998783333333">+998 78 333 33 33</a></p>
+        </li>
+        </ol>
+        <p class="crosslink"><a href="privacy.html#uz">Maxfiylik siyosati &rarr;</a></p>
+      </section>
+
+      <section class="lang" id="uz-cyrl" lang="uz-Cyrl">
+        <h1>Фойдаланиш шартлари</h1>
+        <p class="doc-updated">Охирги янгиланиш: 2026</p>
+        <ol class="clauses">
+        <li>
+          <h2>Умумий қоидалар</h2>
+          <p>UMRA+: лицензияли тур фирмалар ва зиёратчиларни боғловчи платформа. Фирмалар учун администратор тасдиғи талаб қилинади.</p>
+        </li>
+        <li>
+          <h2>Платформанинг роли</h2>
+          <p>UMRA+ воситачи платформа. Брон ва хизматни бевосита лицензияли фирма тақдим этади. UMRA+ ишончли алоқани таъминлайди (нарх кафолати ва шарҳлар), лекин сафар хизматини ўзи кўрсатмайди.</p>
+        </li>
+        <li>
+          <h2>Брон ва тўлов</h2>
+          <p>Бронлар реал вақтда. Тўлов онлайн эмас — нақд, фирма офисида, фирма тасдиғидан сўнг 24 соат ичида. Муддатида тўланмаган брон автоматик бекор қилинади. Брон нархи қулфланади.</p>
+        </li>
+        <li>
+          <h2>Нарх кафолати</h2>
+          <p>Брон нархи UMRA+ орқали кафолатланади; фирма ошира олмайди.</p>
+        </li>
+        <li>
+          <h2>Мижознинг мажбуриятлари</h2>
+          <p>Тўғри ва ҳақиқий маълумот бериш шарт. Тўловни белгиланган муддатда фирма офисида амалга ошириш мижоз зиммасида.</p>
+        </li>
+        <li>
+          <h2>Фирманинг мажбуриятлари</h2>
+          <p>Расмий лицензия, эълон қилинган хизматни тўлиқ тақдим этиш, брон шартларига риоя.</p>
+        </li>
+        <li>
+          <h2>Жавобгарлик</h2>
+          <p>Рейс ёки меҳмонхона томонидан кечикиш/бекор қилиш/хизмат сифати учун жавобгарлик тегишли фирма зиммасида. UMRA+ воситачи сифатида имкон қадар ёрдам беради.</p>
+        </li>
+        <li>
+          <h2>Тақиқлар</h2>
+          <p>Нотўғри мақсадда фойдаланиш, сохта брон, тизимни бузишга уриниш қатъиян тақиқланади.</p>
+        </li>
+        <li>
+          <h2>Шарҳлар</h2>
+          <p>Шарҳларни фақат тўлаган мижозлар ёзади; фирмалар ўзгартира/ўчира олмайди.</p>
+        </li>
+        <li>
+          <h2>Шартлар ўзгариши</h2>
+          <p>Олдиндан хабардор қилинган ҳолда ўзгартирилиши мумкин; давомий фойдаланиш қабул қилганлик ҳисобланади.</p>
+        </li>
+        <li>
+          <h2>Боғланиш</h2>
+          <p>Саволлар учун: <a href="tel:+998783333333">+998 78 333 33 33</a></p>
+        </li>
+        </ol>
+        <p class="crosslink"><a href="privacy.html#uz-cyrl">Махфийлик сиёсати &rarr;</a></p>
+      </section>
+
+      <section class="lang" id="ru" lang="ru">
+        <h1>Условия использования</h1>
+        <p class="doc-updated">Последнее обновление: 2026</p>
+        <ol class="clauses">
+        <li>
+          <h2>Общие положения</h2>
+          <p>UMRA+ — платформа, связывающая лицензированные туристические фирмы и паломников. Для фирм требуется подтверждение администратора.</p>
+        </li>
+        <li>
+          <h2>Роль платформы</h2>
+          <p>UMRA+ — платформа-посредник. Бронь и услугу предоставляет непосредственно лицензированная фирма. UMRA+ обеспечивает надёжную связь (гарантия цены и отзывы), но саму услугу поездки не оказывает.</p>
+        </li>
+        <li>
+          <h2>Бронирование и оплата</h2>
+          <p>Брони в реальном времени. Оплата не онлайн — наличными, в офисе фирмы, в течение 24 часов после подтверждения фирмой. Не оплаченная в срок бронь отменяется автоматически. Цена брони фиксируется.</p>
+        </li>
+        <li>
+          <h2>Гарантия цены</h2>
+          <p>Цена брони гарантируется через UMRA+; фирма не может её повысить.</p>
+        </li>
+        <li>
+          <h2>Обязанности клиента</h2>
+          <p>Обязательно предоставление верных и достоверных данных. Оплата в установленный срок в офисе фирмы — обязанность клиента.</p>
+        </li>
+        <li>
+          <h2>Обязанности фирмы</h2>
+          <p>Официальная лицензия, предоставление объявленной услуги в полном объёме, соблюдение условий брони.</p>
+        </li>
+        <li>
+          <h2>Ответственность</h2>
+          <p>За задержку/отмену рейса или отеля и за качество услуги отвечает соответствующая фирма. UMRA+ как посредник помогает по мере возможности.</p>
+        </li>
+        <li>
+          <h2>Запреты</h2>
+          <p>Использование в ненадлежащих целях, ложные брони, попытки взлома системы строго запрещены.</p>
+        </li>
+        <li>
+          <h2>Отзывы</h2>
+          <p>Отзывы пишут только оплатившие клиенты; фирмы не могут их изменять или удалять.</p>
+        </li>
+        <li>
+          <h2>Изменение условий</h2>
+          <p>Условия могут быть изменены с предварительным уведомлением; продолжение использования означает согласие.</p>
+        </li>
+        <li>
+          <h2>Связаться</h2>
+          <p>По вопросам: <a href="tel:+998783333333">+998 78 333 33 33</a></p>
+        </li>
+        </ol>
+        <p class="crosslink"><a href="privacy.html#ru">Политика конфиденциальности &rarr;</a></p>
+      </section>
+
+    <footer class="foot">
+      <p>UMRA+ &middot; +998 78 333 33 33</p>
+    </footer>
+  </main>
+<script>
+(function(){
+  var ids = ["uz", "uz-cyrl", "ru"];
+  var body = document.body;
+  function show(id){
+    if (ids.indexOf(id) === -1) { id = ids[0]; }
+    ids.forEach(function(x){
+      var s = document.getElementById(x);
+      if (s) {
+        if (x === id) { s.classList.add('active'); }
+        else { s.classList.remove('active'); }
+      }
+      var a = document.querySelector('ul.langs a[href="#' + x + '"]');
+      if (a) { a.setAttribute('aria-current', x === id ? 'true' : 'false'); }
+    });
+  }
+  // Enabling single-language view only here means a browser without script
+  // still shows all three languages instead of a blank page.
+  body.classList.add('js-single');
+  show((location.hash || '').replace('#',''));
+  window.addEventListener('hashchange', function(){
+    show((location.hash || '').replace('#',''));
+  });
+  // Switch on the click itself as well as on hashchange. Fragment navigation
+  // does not always update location.hash — inside a webview, an embedded
+  // viewer, or anything serving the page from a data: URL — and a language
+  // button that silently does nothing is worse than no button at all.
+  var nav = document.querySelector('ul.langs');
+  if (nav) {
+    nav.addEventListener('click', function(e){
+      var a = e.target.closest ? e.target.closest('a[href^="#"]') : null;
+      if (!a) { return; }
+      e.preventDefault();
+      var id = a.getAttribute('href').slice(1);
+      show(id);
+      if (history && history.replaceState) {
+        try { history.replaceState(null, '', '#' + id); } catch (err) {}
+      }
+    });
+  }
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UMRA+ — Legal</title>
+<meta name="description" content="UMRA+ — privacy policy and terms of use">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --ivory:#FAF8F2; --paper:#FFFFFF; --teal:#08313A; --teal-soft:#DCEBEE;
+  --gold:#D4AF37; --gold-deep:#A67C1E; --gold-soft:#F7F0DA;
+  /* Link colour is the palette's goldOnLightEnd, not goldDeep: goldDeep
+     is only 3.8:1 on white and fails WCAG AA for body-size text, which
+     is exactly what the phone number in the contact clause is. */
+  --link:#7E5C10;
+  --ink:#1E2B2F; --muted:#5C6B70; --rule:#E6E0D2;
+}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0; background:var(--ivory); color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size:17px; line-height:1.65;
+}
+.wrap{max-width:46rem; margin:0 auto; padding:0 20px 64px}
+header.masthead{
+  background:var(--teal); color:#fff; margin-bottom:28px;
+  border-bottom:3px solid var(--gold);
+}
+.masthead .wrap{padding-top:28px; padding-bottom:24px}
+.brand{
+  font-family:Georgia,"Times New Roman",serif; font-size:1.9rem; font-weight:700;
+  letter-spacing:.02em; color:var(--gold); margin:0;
+}
+.tagline{margin:6px 0 0; color:#CFE0E3; font-size:.95rem}
+.meta{margin:18px 0 0; padding:0; list-style:none; font-size:.95rem; color:#DCEBEE}
+.meta li{margin:3px 0}
+.meta a{color:#fff}
+ul.langs{
+  display:flex; flex-wrap:wrap; gap:8px; margin:0 0 30px; padding:0; list-style:none;
+}
+ul.langs a{
+  display:inline-block; padding:9px 15px; border-radius:999px;
+  background:var(--paper); border:1px solid var(--rule); color:var(--teal);
+  text-decoration:none; font-size:.95rem; font-weight:600;
+}
+ul.langs a:hover{border-color:var(--gold); background:var(--gold-soft)}
+a:focus-visible{outline:3px solid var(--teal); outline-offset:2px}
+ul.langs a[aria-current="true"]{background:var(--teal); border-color:var(--teal); color:#fff}
+h1{
+  font-family:Georgia,"Times New Roman",serif; color:var(--teal);
+  font-size:1.6rem; line-height:1.25; margin:0 0 4px;
+}
+.doc-updated{margin:0 0 22px; color:var(--muted); font-size:.9rem}
+ol.clauses{list-style:none; margin:0; padding:0; counter-reset:clause}
+ol.clauses > li{
+  counter-increment:clause; background:var(--paper); border:1px solid var(--rule);
+  border-radius:12px; padding:16px 18px; margin:0 0 12px;
+}
+ol.clauses > li > h2{
+  font-family:Georgia,"Times New Roman",serif; color:var(--teal);
+  font-size:1.08rem; line-height:1.35; margin:0 0 8px;
+  display:flex; align-items:baseline; gap:10px;
+}
+ol.clauses > li > h2::before{
+  content:counter(clause); flex:0 0 auto;
+  min-width:1.7em; height:1.7em; padding:0 .35em; border-radius:999px;
+  background:var(--teal-soft); color:var(--teal);
+  font-family:inherit; font-size:.85em; font-weight:700;
+  display:inline-flex; align-items:center; justify-content:center;
+}
+ol.clauses > li > p{margin:0; color:var(--ink)}
+ol.clauses a{color:var(--link)}
+.crosslink{margin:26px 0 0; font-size:.95rem}
+.crosslink a{color:var(--teal); font-weight:600}
+footer.foot{
+  margin-top:40px; padding-top:18px; border-top:1px solid var(--rule);
+  color:var(--muted); font-size:.88rem;
+}
+section.lang{scroll-margin-top:16px}
+section.lang + section.lang{margin-top:44px; padding-top:36px; border-top:1px solid var(--rule)}
+/* Single-language view is switched on by script only. With JavaScript
+   disabled or blocked every language stays visible and readable, which is
+   the behaviour a Play reviewer must never be denied. */
+body.js-single section.lang{display:none}
+body.js-single section.lang.active{display:block}
+body.js-single section.lang + section.lang{margin-top:0; padding-top:0; border-top:0}
+@media (max-width:420px){
+  body{font-size:16px}
+  .brand{font-size:1.6rem}
+  h1{font-size:1.4rem}
+  .wrap{padding-left:16px; padding-right:16px}
+}
+@media print{
+  body{background:#fff}
+  header.masthead{background:#fff; color:#000; border-bottom:2px solid #000}
+  .brand{color:#000} .tagline,.meta{color:#000}
+  .meta a,.masthead a{color:#000}
+  ul.langs{display:none}
+  body.js-single section.lang{display:block !important}
+  ol.clauses > li{border:1px solid #999; break-inside:avoid;
+    page-break-inside:avoid}
+  section.lang + section.lang{page-break-before:always; break-before:page}
+}
+
+ul.doclist{list-style:none; margin:0; padding:0}
+ul.doclist > li{margin:0 0 14px}
+ul.doclist > li > a{
+  display:block; background:var(--paper); border:1px solid var(--rule);
+  border-left:4px solid var(--gold); border-radius:12px; padding:18px 20px;
+  text-decoration:none;
+}
+ul.doclist > li > a:hover{border-color:var(--gold); background:var(--gold-soft)}
+ul.doc-titles{list-style:none; margin:0; padding:0}
+ul.doc-titles li{
+  font-family:Georgia,"Times New Roman",serif; color:var(--teal);
+  font-size:1.12rem; line-height:1.4;
+}
+ul.doc-titles li + li{color:var(--muted); font-size:.98rem; margin-top:2px}
+</style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="wrap">
+      <p class="brand">UMRA+</p>
+      <p class="tagline">Umra va ziyorat turlari platformasi</p>
+      <ul class="meta">
+        <li>Tel: <a href="tel:+998783333333">+998 78 333 33 33</a></li>
+        <li>Last updated: <time datetime="2026-08-19">2026-08-19</time></li>
+      </ul>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <ul class="doclist">
+        <li>
+          <a href="privacy.html">
+            <ul class="doc-titles">
+            <li lang="uz-Latn">Maxfiylik siyosati</li>
+            <li lang="uz-Cyrl">Махфийлик сиёсати</li>
+            <li lang="ru">Политика конфиденциальности</li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="terms.html">
+            <ul class="doc-titles">
+            <li lang="uz-Latn">Foydalanish shartlari</li>
+            <li lang="uz-Cyrl">Фойдаланиш шартлари</li>
+            <li lang="ru">Условия использования</li>
+            </ul>
+          </a>
+        </li>
+        <li>
+          <a href="delete-account.html">
+            <ul class="doc-titles">
+            <li lang="uz-Latn">Hisobni o'chirish</li>
+            <li lang="uz-Cyrl">Ҳисобни ўчириш</li>
+            <li lang="ru">Удалить аккаунт</li>
+            </ul>
+          </a>
+        </li>
+    </ul>
+    <footer class="foot"><p>UMRA+ &middot; +998 78 333 33 33</p></footer>
+  </main>
+</body>
+</html>
